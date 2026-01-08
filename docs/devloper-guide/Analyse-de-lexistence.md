@@ -332,6 +332,6 @@ L'analyse révèle une **dette technique significative** qui compromet:
 
 ---
 
-**Document rédigé par**: [Votre Nom]  
+**Document rédigé par**: sohaib radi 
 **Date**: 08 Janvier 2026  
 **Version**: 1.0
