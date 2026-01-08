@@ -62,10 +62,7 @@ L'admin Django est accessible sur http://localhost:8000/admin/
 
 ## Prochaines Étapes
 
-* **[Architecture](./architecture.md)** - Organisation du code
-* **[API Reference](./api.md)** - Endpoints disponibles
-* **[Problèmes Connus](./known-issues.md)** - Dette technique
+
 
 ---
 
-⚠️ **Points d'attention**: Consultez le [Rapport d'Analyse Technique](./technical-analysis.md) pour les problèmes identifiés et recommandations.
