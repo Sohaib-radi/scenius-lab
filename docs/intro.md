@@ -18,7 +18,7 @@ Découvrez le backend Django en moins de 5 minutes.
 ### Cloner et Installer
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sceniusdevops/scenius-server/
 cd scenius-server
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -53,7 +53,6 @@ python manage.py runserver
 ```
 
 Le serveur démarre sur http://localhost:8000/
-
 L'admin Django est accessible sur http://localhost:8000/admin/
 
 ---

@@ -9,7 +9,7 @@
 
 ---
 
-## 2. Analyse des Problèmes Identifiés
+### 2. Analyse des Problèmes Identifiés
 
 ### 2.1 Architecture des Modèles
 
