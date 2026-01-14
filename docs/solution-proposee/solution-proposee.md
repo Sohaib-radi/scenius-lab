@@ -26,8 +26,8 @@ Nous avons évalué trois stratégies pour résoudre la dette technique critique
 Le problème majeur est le **God Object (User)**. La solution consiste à inverser la logique de responsabilité :
 
 * **Introduction de l'Entité `Organization` :** Le pivot central ne sera plus l'utilisateur, mais l'organisation (Company).
-* **Découplage :** Les modèles `Course`, `Payment` et `Subscription` seront liés à l'organisation. L'utilisateur ne sera plus qu'une entité d'authentification liée à une ou plusieurs organisations avec un rôle spécifique.
-* **Modularité :** Fragmentation du `models.py` monolithique en packages Python par domaine (`users/`, `billing/`, `courses/`).
+* **Découplage :** Les modèles `Course`, `Payment` ... seront liés à l'organisation. L'utilisateur ne sera plus qu'une entité d'authentification liée à une ou plusieurs organisations avec un rôle spécifique.
+* **Modularité :** Fragmentation du `models.py` monolithique en packages Python par domaine (`users/`, `profile/`, `courses/`).
 
 ### 2.2 Refonte du Système de Permissions
 Passage d'un système binaire à un système **RBAC (Role-Based Access Control)** granulaire :
